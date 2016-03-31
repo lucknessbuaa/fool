@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>做一个要多少钱？</title>
+        <link rel="stylesheet" href="css/index.css">
+        <script type="text/javascript">
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?3fa923a77f2022146faed5882c35d8c9";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div class="page1 page">
+            <div class="page1div1 page1div">
+                你的互联网项目要花多少钱？
+            </div>
+            <div class="page1div2 page1div">
+                我们是一家神秘的互联网外包公司，通过人脑对以往数百个项目报价进行深度学习，成功研制了一款名叫厘米狗（LimiGo）的高（智）能程序。
+            </div>
+            <div class="page1div3 page1div">
+                长按说出你的 idea，立刻得到答案！
+            </div>
+
+            <div class="page2div1 page2div hidden">
+                正在录音<img id="recording" src="img/recording.gif" />
+            </div>
+            <div class="page2div2 page2div hidden">放手即发送至厘米狗运算系统</div>
+
+            <button class="button" id="button1">长按说话</button>
+        </div>
+
+        <div class="page2 page hidden">
+            <button class="button" id="button2"></button>
+        </div>
+
+        <div class="page3 page hidden">
+            <img src="img/loading.gif" class="loading" />
+            <div class="page3div1">厘米狗注视着你的idea</div>
+        </div>
+
+        <div class="page4 page hidden">
+            <div class="page4div1">听厘米狗讲那价钱的故事</div>
+            <button class="page4button1"></button>
+            <button class="page4button page4button2 hidden">甘心只有自己被玩？点这里</button>
+            <button class="page4button page4button3 hidden">听不懂？来看看我们的人工服务</button>
+        </div>
+
+        <a class="bottom" href="http://www.limijiaoyin.com">Developed by Limijiaoyin</a>
+
+        <div class="share hidden"></div>
+        <audio src="video.mp3" id="audio" preload="auto"></audio>
+        <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+        <script type="text/javascript" src="js/jweixin.js"></script>
+        <script type="text/javascript" src="js/share.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

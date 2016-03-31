@@ -1,0 +1,192 @@
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    overflow: hidden;
+    color: #93c47d;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 20px;
+    font-family: "Microsoft YaHei", sans-serif;
+    font-weight: bold;
+}
+
+.fadeOut {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.fadeIn {
+    opacity: 1;
+    display: block;
+    visibility: visible;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+
+.show {
+    opacity: 1;
+    display: block;
+    visibility: visible;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+}
+
+.page1 {
+}
+
+.page1div {
+}
+
+.page2div {
+}
+
+.page1div1 {
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+.page1div2 {
+    margin-top: 30%;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.page1div3 {
+    position: absolute;
+    bottom: 130px;
+    left: 0px;
+    right: 0px;
+}
+
+.page2 {
+}
+
+.page2div1 {
+    font-size: 25px;
+    margin-top: 60%;
+}
+
+.page2div2 {
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.page3 {
+}
+
+.loading {
+    margin-top: 40%;
+}
+
+.page3div1 {
+    margin-top: 10px;
+}
+
+.page4 {
+}
+
+.page4div1 {
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+.page3div1 {
+}
+
+.page4button {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    border: 3px solid #93c47d;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #93c47d;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.page4button1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 12px solid #93c47d;
+    background: url("/img/play.png") 9px 4px no-repeat;
+    background-size: 48px 48px;
+    margin-top: 20%;
+    outline: none;
+}
+
+.page4button2 {
+    bottom: 80px;
+}
+
+.page4button3 {
+    bottom: 30px;
+}
+
+.button {
+    position: absolute;
+    bottom: 30px;
+    width: 80px;
+    height: 80px;
+    color: #93c47d;
+    background-color: #000;
+    border: 3px solid #93c47d;
+    border-radius: 40px;
+    margin-left: -40px;
+    outline: none;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0px;
+    font-size: 10px;
+    font-family: serif;
+    text-align: right;
+    text-decoration: none;
+    color: #93c47d;
+}
+
+.share {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: url('/img/share.png') 0px 0px no-repeat;
+    background-size: 100% 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
